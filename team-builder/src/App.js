@@ -5,9 +5,9 @@ import FormData from "./component/FormData";
 function App() {
   const [forms , setForms] = useState([
     {
-      name:'Elijah',
-    email: 'elijah.o@lambdaschool.com',
-    role: 'Frontend Developer'
+      name:'Please Enter Your Name',
+    email: 'Please Enter Your Email',
+    role: 'Select A Role'
     }
   ])  
   const addNewForm = (form) => {
